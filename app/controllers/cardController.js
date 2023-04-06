@@ -1,4 +1,4 @@
-const { Card, List, Tag } = require ('../models/index');
+const { Card } = require ('../models/index');
 
 const cardController = {
     getAllCardsFromList: async function (req, res) {

@@ -1,4 +1,4 @@
-const { Card, List, Tag } = require ('../models/index');
+const { Tag } = require ('../models/index');
 
 const tagController = {
    

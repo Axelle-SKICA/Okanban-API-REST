@@ -45,14 +45,14 @@ DELETE /lists/:id
 
 ### CARTES
 
-GET /lists/:id/cards  
-GET /cards/:id  
+:heavy_check_mark: GET /lists/:id/cards  
+:heavy_check_mark: GET /cards/:id  
 
-POST /cards  
+:heavy_check_mark: POST /cards  
 
-PATCH /cards/:id  
+:heavy_check_mark: PATCH /cards/:id  
 
-DELETE /cards/:id  
+:heavy_check_mark: DELETE /cards/:id  
 
 ### LABELS
 
