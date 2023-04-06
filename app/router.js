@@ -17,9 +17,9 @@ const tagController = require ('./controllers/tagController');
 
 //CARDS ROUTES
 router.get('/lists/:id/cards', cardController.getAllCardsFromList);
-// router.get('/cards/:id', cardController.getOneCard);
+router.get('/cards/:id', cardController.getOneCard);
 
-// router.post('/cards', cardController.createCard);
+router.post('/cards', cardController.createCard);
 
 // router.patch('/cards/:id', cardController.updateCard);
 
