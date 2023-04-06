@@ -11,6 +11,8 @@ L'objectif est de réaliser l'__API REST__ d'un outil de type Kanban (comme par 
 
 ## Lancement
 
+Après avoir cloné ce dépôt, installer les dépendances :
+
 ```bash
 npm i
 ```
@@ -18,6 +20,7 @@ npm i
 Créer une base de données sur __PostgreSQL__.
 
 Créer et remplir les tables de la BDD de quelques données de test :
+
 ```bash
 npm run dbreset
 npm run dbseed
@@ -26,11 +29,12 @@ npm run dbseed
 Créer et remplir _.env_ à partir du fichier d'exemple.
 
 Lancer le serveur :
+
 ```bash
 npm run dev
 ```
 
-## Routes
+## Routes (en cours)
 
 ### LISTES
 
