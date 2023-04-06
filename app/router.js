@@ -21,7 +21,7 @@ router.get('/cards/:id', cardController.getOneCard);
 
 router.post('/cards', cardController.createCard);
 
-// router.patch('/cards/:id', cardController.updateCard);
+router.patch('/cards/:id', cardController.updateCard);
 
 // router.delete('/cards/:id', cardController.deleteCard);
 
