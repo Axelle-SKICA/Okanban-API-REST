@@ -35,4 +35,8 @@ router.post('/cards/:id/tag', tagController.associateTagWithCard)
 router.patch('/tags/:id', tagController.updateTag);
 router.delete('/tags/:id', tagController.deleteTag);
 
+router.use((req, res) => {
+    res.status(404).json({ error: "Not found" });
+})
+
 module.exports = router;
