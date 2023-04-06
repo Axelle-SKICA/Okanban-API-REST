@@ -166,7 +166,24 @@ const cardController = {
     },
 
     deleteCard: async function (req, res) {
-        
+        const searchedId = Number(req.params.id);
+
+        try {
+            const cardToDelete = await Card.findByPk(searchedId);
+
+            if (cardToDelete) {
+                await cardToDelete.destroy();
+                res.status(204).json(); // when deleted: send HTTP code 204 but no data
+            }
+            else {
+                res.status(404).json({ "error": "Card not found. Please verify the id." });
+            }
+
+        } catch (error) {
+            console.trace(error);
+            const errorContent = { error: 'Unexpected server error' }
+            res.status(500).json(errorContent);
+        }
     }
 
 };
