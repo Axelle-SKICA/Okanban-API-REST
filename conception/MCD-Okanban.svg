@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="622" height="154" viewBox="0 0 622 154" xmlns="http://www.w3.org/2000/svg">
+<rect id="frame" x="0" y="0" width="622" height="154" fill="#f7f7f7" stroke="none" stroke-width="0"/>
+
+<!-- Association contenir -->
+<g class="page_0_NPHqRdwN diagram_page" visibility="visible">
+	<line x1="67" y1="77" x2="189" y2="77" stroke="#e08214" stroke-width="2"/>
+	<text x="130" y="94" fill="#542788" font-family="Verdana" font-size="12">0,N</text>
+	<line x1="311" y1="77" x2="189" y2="77" stroke="#e08214" stroke-width="2"/>
+	<text x="227" y="94" fill="#542788" font-family="Verdana" font-size="12">1,1</text>
+	<g>
+		<path d="M207 52 a14 14 90 0 1 14 14 V77 h-64 V66 a14 14 90 0 1 14 -14" fill="#fdb863" stroke="#fdb863" stroke-width="0"/>
+		<path d="M221 77 v11 a14 14 90 0 1 -14 14 H171 a14 14 90 0 1 -14 -14 V77 H64" fill="#fee0b6" stroke="#fee0b6" stroke-width="0"/>
+		<rect x="157" y="52" width="64" height="50" fill="none" rx="14" stroke="#e08214" stroke-width="2"/>
+		<line x1="157" y1="77" x2="221" y2="77" stroke="#e08214" stroke-width="1"/>
+		<text x="164" y="69.75" fill="#000" font-family="Verdana" font-size="12">contenir</text>
+	</g>
+</g>
+
+<!-- Association associer -->
+<g class="page_0_NPHqRdwN diagram_page" visibility="visible">
+	<line x1="311" y1="77" x2="433" y2="77" stroke="#e08214" stroke-width="2"/>
+	<text x="374" y="94" fill="#542788" font-family="Verdana" font-size="12">0,N</text>
+	<line x1="555" y1="77" x2="433" y2="77" stroke="#e08214" stroke-width="2"/>
+	<text x="470" y="94" fill="#542788" font-family="Verdana" font-size="12">0,N</text>
+	<g>
+		<path d="M451 52 a14 14 90 0 1 14 14 V77 h-64 V66 a14 14 90 0 1 14 -14" fill="#fdb863" stroke="#fdb863" stroke-width="0"/>
+		<path d="M465 77 v11 a14 14 90 0 1 -14 14 H415 a14 14 90 0 1 -14 -14 V77 H64" fill="#fee0b6" stroke="#fee0b6" stroke-width="0"/>
+		<rect x="401" y="52" width="64" height="50" fill="none" rx="14" stroke="#e08214" stroke-width="2"/>
+		<line x1="401" y1="77" x2="465" y2="77" stroke="#e08214" stroke-width="1"/>
+		<text x="408" y="69.75" fill="#000" font-family="Verdana" font-size="12">associer</text>
+	</g>
+</g>
+
+<!-- Entity LISTE -->
+<g class="page_0_NPHqRdwN diagram_page" visibility="visible">
+	<g>
+		<rect x="9" y="18" width="116" height="25" fill="#b2abd2" stroke="#b2abd2" stroke-width="0" opacity="1"/>
+		<rect x="9" y="43" width="116" height="93" fill="#d8daeb" stroke="#d8daeb" stroke-width="0" opacity="1"/>
+		<rect x="9" y="18" width="116" height="118" fill="none" stroke="#8073ac" stroke-width="2" opacity="1"/>
+		<line x1="9" y1="43" x2="125" y2="43" stroke="#8073ac" stroke-width="1"/>
+	</g>
+	<text x="49" y="35.75" fill="#000" font-family="Verdana" font-size="12">LISTE</text>
+	<text x="14" y="60.8" fill="#000" font-family="Verdana" font-size="12">code liste</text>
+	<line x1="14" y1="63" x2="72" y2="63" stroke="#000" stroke-width="1"/>
+	<text x="14" y="77.8" fill="#000" font-family="Verdana" font-size="12">nom</text>
+	<text x="14" y="94.8" fill="#000" font-family="Verdana" font-size="12">position</text>
+	<text x="14" y="111.8" fill="#000" font-family="Verdana" font-size="12">date création</text>
+	<text x="14" y="128.8" fill="#000" font-family="Verdana" font-size="12">date modification</text>
+</g>
+
+<!-- Entity CARTE -->
+<g class="page_0_NPHqRdwN diagram_page" visibility="visible">
+	<g>
+		<rect x="253" y="9" width="116" height="25" fill="#b2abd2" stroke="#b2abd2" stroke-width="0" opacity="1"/>
+		<rect x="253" y="34" width="116" height="111" fill="#d8daeb" stroke="#d8daeb" stroke-width="0" opacity="1"/>
+		<rect x="253" y="9" width="116" height="136" fill="none" stroke="#8073ac" stroke-width="2" opacity="1"/>
+		<line x1="253" y1="34" x2="369" y2="34" stroke="#8073ac" stroke-width="1"/>
+	</g>
+	<text x="291" y="26.75" fill="#000" font-family="Verdana" font-size="12">CARTE</text>
+	<text x="258" y="51.8" fill="#000" font-family="Verdana" font-size="12">code carte</text>
+	<line x1="258" y1="54" x2="322" y2="54" stroke="#000" stroke-width="1"/>
+	<text x="258" y="68.8" fill="#000" font-family="Verdana" font-size="12">titre</text>
+	<text x="258" y="85.8" fill="#000" font-family="Verdana" font-size="12">couleur</text>
+	<text x="258" y="102.8" fill="#000" font-family="Verdana" font-size="12">position</text>
+	<text x="258" y="119.8" fill="#000" font-family="Verdana" font-size="12">date création</text>
+	<text x="258" y="136.8" fill="#000" font-family="Verdana" font-size="12">date modification</text>
+</g>
+
+<!-- Entity LABEL -->
+<g class="page_0_NPHqRdwN diagram_page" visibility="visible">
+	<g>
+		<rect x="497" y="26" width="116" height="25" fill="#b2abd2" stroke="#b2abd2" stroke-width="0" opacity="1"/>
+		<rect x="497" y="51" width="116" height="77" fill="#d8daeb" stroke="#d8daeb" stroke-width="0" opacity="1"/>
+		<rect x="497" y="26" width="116" height="102" fill="none" stroke="#8073ac" stroke-width="2" opacity="1"/>
+		<line x1="497" y1="51" x2="613" y2="51" stroke="#8073ac" stroke-width="1"/>
+	</g>
+	<text x="536" y="43.75" fill="#000" font-family="Verdana" font-size="12">LABEL</text>
+	<text x="502" y="68.8" fill="#000" font-family="Verdana" font-size="12">code label</text>
+	<line x1="502" y1="71" x2="564" y2="71" stroke="#000" stroke-width="1"/>
+	<text x="502" y="85.8" fill="#000" font-family="Verdana" font-size="12">nom</text>
+	<text x="502" y="102.8" fill="#000" font-family="Verdana" font-size="12">date création</text>
+	<text x="502" y="119.8" fill="#000" font-family="Verdana" font-size="12">date modification</text>
+</g>
+</svg>
