@@ -51,32 +51,6 @@ const cardController = {
     },
 
     createCard: async function (req, res) {
-        const searchedCardId = Number(req.params.id);
-
-        try {
-            const searchedCard = await Card.findByPk(searchedCardId, {
-                include: "tags"
-            });
-
-            if (searchedCard) {
-                res.json(searchedCard);
-            } else {
-                res.status(404).json({error: "not found"})
-            };
-
-        } catch(error) {
-      
-            console.trace(error);
-
-            const errorContent = {
-                error: 'unexpected server error. Please try again later.'
-            }
-
-            res.status(500).json(errorContent);
-        }
-    },
-
-    createCard: async function (req, res) {
         // we get the info for the card to create from the body of the request
         const { title, position, color, list_id } = req.body;
 
